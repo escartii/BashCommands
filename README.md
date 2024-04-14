@@ -25,4 +25,4 @@ Para añadir estos comandos a tu sistema y empezar a usarlos, sigue estos sencil
 1. **Clona el repositorio:** Primero, clona este repositorio a tu máquina local utilizando el siguiente comando:
 
 ```bash
-git clone https://github.com/tunombredeusuario/NuevoComandos.git
+[[git clone https://github.com/tunombredeusuario/bashcommands.git])
