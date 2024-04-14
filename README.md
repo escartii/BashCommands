@@ -38,16 +38,17 @@ vim .bashrc
 ```
 
 3. **Agrega tu comando:**
-
 ```bash
 alias mkcd='function _mkcd() { mkdir -p "$1" && cd "$1"; }; _mkcd'
 ```
+
+4. **Actualiza tu terminal:**
 
 ```bash
 source ~/.bashrc
 ```
 
-5.**Ejemplo de uso:**
+5. **Ejemplo de uso:**
 
 ```bash
 mkcd nuevo_directorio
