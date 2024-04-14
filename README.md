@@ -32,7 +32,7 @@ Para añadir estos comandos a tu sistema y empezar a usarlos, sigue estos sencil
 git clone https://github.com/tunombredeusuario/BashCommands.git
 ```
 
-2. **Abre tu editor favorito..**
+2. **Abre con tu editor favorito**
 ```bash
 vim .bashrc
 ```
