@@ -30,26 +30,28 @@ Para añadir estos comandos a tu sistema y empezar a usarlos, sigue estos sencil
 
 ```bash
 git clone https://github.com/tunombredeusuario/BashCommands.git
+```
 
-2. **Abre .bashrc**
-
+2. **Abre tu editor favorito..**
 ```bash
 vim .bashrc
+```
 
 3. **Agrega tu comando:**
 
 ```bash
 alias mkcd='function _mkcd() { mkdir -p "$1" && cd "$1"; }; _mkcd'
-
-4.**Guarda y aplica los cambios:**
+```
 
 ```bash
 source ~/.bashrc
+```
 
 5.**Ejemplo de uso:**
 
 ```bash
 mkcd nuevo_directorio
+```
 
 
 
