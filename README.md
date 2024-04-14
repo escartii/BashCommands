@@ -1,4 +1,8 @@
-# NuevoComandos
+<div align="center">
+
+# Bash Commands
+
+</div>
 
 ¡Bienvenido a NuevoComandos! Este es un proyecto open source dedicado a agregar nuevos comandos útiles a tu terminal, para mejorar tu flujo de trabajo y productividad.
 
@@ -26,3 +30,26 @@ Para añadir estos comandos a tu sistema y empezar a usarlos, sigue estos sencil
 
 ```bash
 git clone https://github.com/tunombredeusuario/BashCommands.git
+
+2. **Abre .bashrc**
+
+```bash
+vim .bashrc
+
+3. **Agrega tu comando:**
+
+```bash
+alias mkcd='function _mkcd() { mkdir -p "$1" && cd "$1"; }; _mkcd'
+
+4.**Guarda y aplica los cambios:**
+
+```bash
+source ~/.bashrc
+
+5.**Ejemplo de uso:**
+
+```bash
+mkcd nuevo_directorio
+
+
+
